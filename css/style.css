@@ -1,0 +1,48 @@
+.background{
+  background: linear-gradient(to right,gray,dimgray)
+}
+.background2{
+  background: rgb(190, 226, 236);
+}
+.mid-section{
+  width: 100%;
+  height:490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.first,.second{
+  width:100%
+}
+
+.first{
+  height:90%;
+  overflow:auto;
+  padding: 20px 0;
+}
+.second{
+  height: 7%;
+}
+.left,.right,.center{
+  max-width: 60%;
+  clear: both;
+  text-align: left;
+
+}
+.left{
+  float: left;
+}
+
+
+.center{
+  width: 30%;
+  margin: auto;
+  margin-bottom:10px;
+  text-align: center;
+  max-width: 60%;
+}
+.right{
+  float: right;
+  text-align: right;
+}
